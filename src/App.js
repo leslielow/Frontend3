@@ -69,6 +69,8 @@ class App extends React.Component {
         <History history={this.state.history} prev={this.state.prevPosition}/>
         </div>
         }
+        {this.state.position >= "6" &&
+        <h1 className="layout historia">Fin del juego, hasta la proxima !</h1>}
         </>
       )
     }

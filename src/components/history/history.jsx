@@ -8,7 +8,7 @@ class History extends React.Component {
 }
 
 componentWillUnmount() {
-    alert("Fin")
+    alert("FIN")
 }
     render() {
         const { history } = this.props;
