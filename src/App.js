@@ -8,7 +8,6 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      msg: "ph2",
       data: [],
       position: "1",
       positionId: "1",
